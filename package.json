@@ -1,0 +1,28 @@
+{
+  "name": "protractor-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "conf.js",
+  "dependencies": {
+    "browserstack-webdriver": "^2.41.1",
+    "moment": "^2.9.0",
+    "protractor": "^1.8.0"
+  },
+  "devDependencies": {
+    "astrolabe": "^0.3.6",
+	"protractor-html-screenshot-reporter": "git+https://git@github.com/khoaln/protractor-html-screenshot-reporter.git"
+  },
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khoaln/angularjs-protractor-example.git"
+  },
+  "keywords": [
+    "Protractor",
+    "Example"
+  ],
+  "author": "Khoa Le",
+  "license": "ISC"
+}
